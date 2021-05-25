@@ -1,4 +1,4 @@
-# CatCalc
+# CatCalc - Simple Calculator
 Android Studio learning project, 2020.
 
 Status: finished
