@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="7"
+    android:columnCount="4">
+
+    <TextView
+        style="@style/inputview_style"
+        android:id="@+id/resultTV"
+        />
+
+    <TextView
+        style="@style/darkbutton_style"
+        android:text="/"
+        />
+
+    <TextView
+        style="@style/darkbutton_style"
+        android:text="*"
+        />
+
+    <TextView
+        style="@style/darkbutton_style"
+        android:text="-"
+        />
+
+    <TextView
+        style="@style/darkbutton_style"
+        android:text="+"
+        />
+
+    <TextView
+        style="@style/lightbutton_style"
+        android:text="7"
+        />
+
+    <TextView
+        style="@style/lightbutton_style"
+        android:text="8"
+        />
+
+    <TextView
+        style="@style/lightbutton_style"
+        android:text="9"
+        />
+
+    <TextView
+        style="@style/deletebutton_style"
+        android:text="◁"
+        />
+
+    <TextView
+        style="@style/lightbutton_style"
+        android:text="4"
+        />
+
+    <TextView
+        style="@style/lightbutton_style"
+        android:text="5"
+        />
+
+    <TextView
+        style="@style/lightbutton_style"
+        android:text="6"
+        />
+
+    <TextView
+        style="@style/deletebutton_style"
+        android:text="C"
+        />
+
+    <TextView
+        style="@style/lightbutton_style"
+        android:text="1"
+        />
+
+    <TextView
+        style="@style/lightbutton_style"
+        android:text="2"
+        />
+
+    <TextView
+        style="@style/lightbutton_style"
+        android:text="3"
+        />
+
+    <TextView
+        style="@style/confirmbutton_style"
+        android:text="="
+        />
+
+    <TextView
+        style="@style/lightbutton_style"
+        android:text="0"
+        android:layout_columnSpan="2"
+        />
+
+    <TextView
+        style="@style/darkbutton_style"
+        android:text="."
+        />
+</GridLayout>
